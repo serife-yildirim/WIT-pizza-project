@@ -256,9 +256,9 @@ const OrderPage = () => {
                         text-[#fdc913] 
                         relative
                         appearance-none
-                      
-                        checked:bg-[#fdc913]
-                    
+                        border-customYellow
+                        checked:bg-customYellow
+                        checked:border-customYellow
                         checked:before:content-['✓']
                         checked:before:text-black
                         checked:before:text-xl

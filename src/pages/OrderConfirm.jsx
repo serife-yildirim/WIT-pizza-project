@@ -12,7 +12,7 @@ function OrderConfirm() {
   } = location.state || {};
 
   return (
-    <div className="bg-red-600 min-h-screen flex flex-col items-center justify-center px-4 py-8">
+    <div className="bg-successPageBackground min-h-screen flex flex-col items-center justify-center px-4 py-8">
       {/* Header */}
       <header className="flex flex-col items-center text-center text-white mb-8 w-full max-w-xl">
         {/* Logo */}
