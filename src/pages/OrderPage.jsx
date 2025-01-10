@@ -9,6 +9,10 @@ import {
   Card,
   CardBody,
   CardTitle,
+  Modal,
+  ModalHeader,
+  ModalBody,
+  ModalFooter,
 } from "reactstrap";
 import Footer from "../components/Footer";
 
@@ -20,10 +24,13 @@ const OrderPage = () => {
   const [pizzaSize, setPizzaSize] = useState("");
   const [pizzaCrust, setPizzaCrust] = useState("");
   const [error, setError] = useState("");
+  const [isModalOpen, setIsModalOpen] = useState(false); // Modal state'i eklendi
 
   const pizzaPrice = 175; // Pizza fiyatı 175 TL olarak güncellendi
   const extraPrice = 5;
   const navigate = useNavigate();
+
+  const toggleModal = () => setIsModalOpen(!isModalOpen); // Modal aç/kapat
 
   const calculateTotal = () => {
     const basePrice = pizzaPrice + malzemeSecimi.length * extraPrice;
@@ -50,14 +57,17 @@ const OrderPage = () => {
   const handleButtonClick = () => {
     if (malzemeSecimi.length < 4) {
       setError("En az 4 malzeme seçmelisiniz.");
+      setIsModalOpen(true); // Hata olduğunda modal açılır
       return;
     }
     if (!pizzaSize) {
       setError("Lütfen pizza boyutunu seçin.");
+      setIsModalOpen(true); // Hata olduğunda modal açılır
       return;
     }
     if (!pizzaCrust) {
       setError("Lütfen hamur kalınlığını seçin.");
+      setIsModalOpen(true); // Hata olduğunda modal açılır
       return;
     }
 
@@ -85,6 +95,7 @@ const OrderPage = () => {
       })
       .catch((err) => {
         setError("Sipariş oluşturulurken bir hata oluştu. Lütfen tekrar deneyin.");
+        setIsModalOpen(true); // Hata olduğunda modal açılır
         console.error(err);
       });
   };
@@ -99,6 +110,17 @@ const OrderPage = () => {
           className="h-12"
         />
       </header>
+
+      {/* Modal */}
+      <Modal isOpen={isModalOpen} toggle={toggleModal}>
+        <ModalHeader toggle={toggleModal}>Uyarı</ModalHeader>
+        <ModalBody>{error}</ModalBody>
+        <ModalFooter>
+          <Button color="secondary" onClick={toggleModal}>
+            Kapat
+          </Button>
+        </ModalFooter>
+      </Modal>
 
       {/* Orta Alan */}
       <div className="flex-grow flex flex-col items-center">
