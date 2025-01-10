@@ -1,0 +1,417 @@
+.main-page {
+  background-image: url("https://github.com/Workintech/fsweb-s8-challenge-pizza/blob/main/images/iteration-1-images/home-banner.png?raw=true");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  padding: 1rem;
+}
+
+.logo-p-p-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+.slogane-1 {
+  font-size: 1rem;
+  text-align: center;
+  width: 30%;
+  font-weight: 400;
+  font-family: "Satisfy";
+  color: #fdc913;
+  margin-top: 4rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.slogane-2 {
+  font-size: 3rem;
+  text-align: center;
+  width: 30%;
+  max-width: 30%;
+  font-weight: 100;
+  font-family: "Barlow";
+  color: white;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.aciktim {
+  background-color: #fdc913 !important;
+  border: none !important;
+  border-radius: 2rem !important;
+  padding: 1.1rem 3.1rem !important;
+  font-size: 1rem !important;
+  cursor: pointer !important;
+  transition: 1s ease !important;
+}
+
+.aciktim:hover {
+  background-color: #ffa500 !important;
+  border: 1px solid white !important;
+}
+
+/*MENU HEADER*/
+
+#menu {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.menu-item {
+  display: flex;
+  align-items: end;
+  text-align: center;
+  gap: 10px;
+  line-height: 0.4rem;
+}
+
+/*ADDS PART*/
+
+.adds-page {
+  display: flex;
+  justify-content: center;
+  padding-top: 4rem;
+  gap: 1rem;
+}
+
+.adds-page h3 {
+  color: white;
+  font-family: "Quattrocento ";
+}
+
+.adds-page button {
+  background-color: white;
+  color: #ce2829;
+  border: none;
+  border-radius: 1rem;
+  font-size: 0.7rem;
+  font-family: "Barlow";
+  font-weight: 500;
+  padding: 0.7rem;
+}
+/*-------------------- PIZZA PART --------------------*/
+
+.pizza-add {
+  background-image: url("https://github.com/Workintech/fsweb-s8-challenge-pizza/blob/main/images/iteration-2-images/cta/kart-1.png?raw=true");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 28rem;
+  width: 35rem;
+  border-radius: 1rem;
+  text-align: left;
+}
+
+.pizza-add h3 {
+  font-size: 3rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  width: 20px;
+}
+
+.pizza-add p {
+  color: white;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.pizza-add button {
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+/*-------------------- ROW PART --------------------*/
+
+.row-add {
+  height: 28rem;
+  width: 35rem;
+}
+
+/*-------------------- BURGER PART --------------------*/
+
+.burger-add {
+  background-image: url("https://github.com/Workintech/fsweb-s8-challenge-pizza/blob/main/images/iteration-2-images/cta/kart-2.png?raw=true");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 13rem;
+  width: 35rem;
+  border-radius: 1rem;
+}
+
+.burger-add h3 {
+  padding-top: 1rem;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  width: 140px;
+}
+
+.burger-add button {
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+/*-------------------- DELIVERY PART --------------------*/
+
+.delivery-add {
+  background-image: url("https://github.com/Workintech/fsweb-s8-challenge-pizza/blob/main/images/iteration-2-images/cta/kart-3.png?raw=true");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 13rem;
+  width: 35rem;
+  border-radius: 1rem;
+  margin-top: 2rem;
+}
+
+.delivery-add h3 {
+  color: black;
+  padding-top: 2.5rem;
+  font-size: 1.5rem;
+  margin-left: 1.5rem;
+  width: 170px;
+}
+
+.delivery-add h3 span {
+  color: #ce2829;
+}
+
+.delivery-add button {
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+/*-------------------- CAROUSEL PART --------------------*/
+
+.slogane-part {
+  margin-top: 9rem;
+}
+
+.page-slogane {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Satisfy";
+  color: #ce2829;
+}
+
+.page-slogane-2 {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 600;
+  font-family: "Barlow";
+  color: black;
+}
+
+/*-------------------- CAROUSEL menu PART -------------------*/
+
+.third-part-manu {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.third-menu-item {
+  background-color: white;
+  padding: 1rem;
+  display: flex;
+  align-items: end;
+  text-align: center;
+  justify-content: center;
+  gap: 10px;
+  line-height: 0.4rem;
+  border-radius: 3rem;
+  width: 11.9rem;
+}
+
+/*----------------- CAROUSEL choice PART ----------------*/
+
+.third-part-list {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.third-main {
+    background-color: white;
+    padding: 1rem 3rem 7rem 3rem;
+    border-radius: 2rem;
+    height: 28rem;
+}
+
+
+.third-terminal-pizza {
+  background-image: url("https://github.com/Workintech/fsweb-s8-challenge-pizza/blob/main/images/iteration-2-images/pictures/food-1.png?raw=true");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 20rem;
+  width: 20rem;
+}
+
+
+
+.third-absolute-pizza {
+  background-image: url("https://github.com/Workintech/fsweb-s8-challenge-pizza/blob/main/images/iteration-2-images/pictures/food-2.png?raw=true");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 20rem;
+  width: 20rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+
+.third-tavuk-burger {
+  background-image: url("https://github.com/Workintech/fsweb-s8-challenge-pizza/blob/main/images/iteration-2-images/pictures/food-3.png?raw=true");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 20rem;
+  width: 20rem;
+  border-radius: 1rem;
+}
+
+.name-part{
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.price-part{
+    display: flex;
+    justify-content: space-between;
+    font-size: .7rem;
+
+}
+
+
+
+/*----------------- FOOTER ADDRESS PART ----------------*/
+footer {
+    background-color: #292929;
+
+}
+
+
+.footer-main-part {
+
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.addres-main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+
+}
+
+.address-part{
+    display: flex;
+    align-items: flex-start;
+}
+
+
+address p {
+    color: white;
+}
+/*----------------- FOOTER INSTAGRAM PART ----------------*/
+
+.menuler {
+    color: white;
+    cursor: pointer;
+}
+
+.menuler h5 {
+    margin-bottom: 4rem;
+    font-weight: 400;
+}
+
+
+
+/*----------------- FOOTER INSTAGRAM PART ----------------*/
+
+.instagram {
+    width: 200px;
+    color: white;
+    cursor: pointer;
+}
+
+.instagram-photos{
+    display: flex;
+    gap: 1rem;
+}
+
+.instagram-mini-photos-1{
+    background-image: url("https://github.com/Workintech/fsweb-s8-challenge-pizza/blob/main/images/iteration-2-images/footer/insta/li-0.png?raw=true");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 8rem;
+    width: 8rem;
+}
+
+.instagram-mini-photos-2{
+    background-image: url("https://github.com/Workintech/fsweb-s8-challenge-pizza/blob/main/images/iteration-2-images/footer/insta/li-1.png?raw=true");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 8rem;
+    width: 8rem;
+}
+
+.instagram-mini-photos-3{
+    background-image: url("https://github.com/Workintech/fsweb-s8-challenge-pizza/blob/main/images/iteration-2-images/footer/insta/li-2.png?raw=true");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 8rem;
+    width: 8rem;
+}
+
+.instagram-mini-photos-4{
+    background-image: url("https://github.com/Workintech/fsweb-s8-challenge-pizza/blob/main/images/iteration-2-images/footer/insta/li-3.png?raw=true");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 8rem;
+    width: 8rem;
+}
+
+.instagram-mini-photos-5{
+    background-image: url("https://github.com/Workintech/fsweb-s8-challenge-pizza/blob/main/images/iteration-2-images/footer/insta/li-4.png?raw=true");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 8rem;
+    width: 8rem;
+}
+
+.instagram-mini-photos-6{
+    background-image: url("https://github.com/Workintech/fsweb-s8-challenge-pizza/blob/main/images/iteration-2-images/footer/insta/li-5.png?raw=true");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 8rem;
+    width: 8rem;
+}

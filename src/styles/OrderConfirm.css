@@ -1,0 +1,50 @@
+.successHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order-confirm {
+    background-color: #CE2829;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.type {
+    color: white;
+    font-weight: 200;
+    font-family: "Barlow";
+
+}
+
+.result {
+    color: white;
+    font-weight: 700;
+    font-family: "Barlow";
+
+
+}
+
+.final-price {
+    margin-top: 6rem;
+    border: 1px solid white;
+    padding: 2.8rem 3rem;
+    border-radius: 1rem;
+}
+
+.pizza-ismi {
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.successHeader hr {
+    width: 100%; 
+    height: 2px;
+    background-color: white; 
+    margin: 1rem auto; 
+    border: 1px solid white;
+}
